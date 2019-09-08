@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
-<robot name="epuck">
+<robot name="puck">
 
     <link name="base_link">
         <visual>

@@ -351,6 +351,12 @@ puck_description_BINARY_DIR:STATIC=/home/ernest/puck_ws/build/puck_description
 //Value Computed by CMake
 puck_description_SOURCE_DIR:STATIC=/home/ernest/puck_ws/src/puck_description
 
+//Value Computed by CMake
+puck_gazebo_BINARY_DIR:STATIC=/home/ernest/puck_ws/build/puck_gazebo
+
+//Value Computed by CMake
+puck_gazebo_SOURCE_DIR:STATIC=/home/ernest/puck_ws/src/puck_gazebo
+
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/melodic/share/rosconsole/cmake
 
