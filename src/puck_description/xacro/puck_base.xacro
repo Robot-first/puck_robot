@@ -34,7 +34,7 @@
             </visual>
         </link>
 
-		<joint name="base_to_${prefix}_wheel" type="fixed">
+		<joint name="base_to_${prefix}_wheel" type="continuous">
             <parent link="base_link"/>
             <child link="${prefix}_wheel"/>
 			<origin rpy="0 0 ${M_PI/2}" xyz="0 ${-reflect*wheel_joint_y} ${wheel_joint_z}"/>
